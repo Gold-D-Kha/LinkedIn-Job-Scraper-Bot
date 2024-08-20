@@ -2,15 +2,15 @@
 LinkedIn Job Scraper Bot
 This project is a LinkedIn job scraper bot that extracts job posts containing specific keywords and sends the details to a Telegram bot. The bot is built using Python and Selenium, and it automates the extraction of job posts from LinkedIn.
 
-Prerequisites
-# Before running the script, ensure you have the following installed:
+# Prerequisites
+Before running the script, ensure you have the following installed:
 
 Python 3.x
 Selenium
 Microsoft Edge WebDriver (or any other WebDriver if using a different browser)
 A LinkedIn account
 A Telegram bot token and chat ID
-Installation
+# Installation
 Clone the repository to your local machine:
 
 
@@ -25,18 +25,18 @@ Create a virtual environment (optional but recommended):
 python -m venv venv
 Activate the virtual environment:
 
-# On Windows:
+On Windows:
 
 .\venv\Scripts\activate
 
-# On macOS/Linux:
+On macOS/Linux:
 
 source venv/bin/activate
 Install the required Python packages:
 
 
 pip install -r requirements.txt
-Configuration
+# Configuration
 Update the bot.py script with your LinkedIn credentials and Telegram bot details:
 
 python
